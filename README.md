@@ -22,7 +22,6 @@ This work investigates phoneme-level controllability of emotional prosody in spe
 ```
 hed-fastspeech2/
 ├── configs/              # YAML configuration files
-├── checkpoints/          # Pretrained baseline checkpoint at 15000 steps
 ├── data/                 # Example HED vectors (for inference tests)
 ├── evaluation/           # Prosody analysis & BWS scoring scripts
 ├── logs/                 # Training and validation logs
@@ -129,7 +128,7 @@ Scripts for prosody analysis and subjective testing:
 
 ## 📥 Pretrained Resources
 
-- ✅ 15k-step baseline checkpoint: `checkpoints/baseline/15000.pth.tar`  
+- ✅ 15k-step baseline checkpoint: https://drive.google.com/file/d/1M4dd7YI_dZr9IC1JSrl97cmOT7trkF2z/view?usp=sharing 
 - ✅ Example normalized HED vectors: `data/hed_vectors/*.npy`  
 - ✅ Trained SVM and scaler models: `parameters/*.pkl`  
 
