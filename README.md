@@ -11,11 +11,9 @@ This work investigates phoneme-level controllability of emotional prosody in spe
 ## 📄 Thesis
 
 - **Title**: Towards Fine-Grained Emotional Modulation in FastSpeech 2 with Hierarchical Emotion Distributions  
-- **Author**: Qiyan  
-- **Institution**: [Your University Name]  
+- **Author**: Qiyan Huang
+- **Institution**: University of Groningen
 - **Date**: June 2025
-
-📄 PDF: *[Add link or upload if available]*
 
 ---
 
@@ -51,8 +49,8 @@ hed-fastspeech2/
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/hed-fastspeech2.git
-cd hed-fastspeech2
+git clone https://github.com/kaia1349/HED_FastSpeech2_2025.git
+cd HED_FastSpeech2_2025
 pip install -r requirements.txt
 ```
 
@@ -107,9 +105,15 @@ python scripts/train.py --config configs/train.yaml --resume_path checkpoints/ba
 Example inference with HED vector control:
 
 ```bash
-python scripts/synthesize.py \
-  --text "I am going to back home" \
-  --hed_vector "0.3 0.2 0.1 0.4 0.5 0.2 0.3 0.1 0.3 0.2 0.3 0.4"
+python3 synthesize.py \
+  --restore_step 200000 \
+  --mode single \
+  --text "all the way to China is home" \
+  --speaker_id 2 \
+  -p config/HED/preprocess.yaml \
+  -m config/HED/model.yaml \
+  -t config/HED/train.yaml \
+  --hed_vector 0.3895 0.3990 0.4661 0.4545 0.3298 0.3498 0.4751 0.4199 0.2574 0.3931 0.4649 0.4198
 ```
 
 ---
@@ -117,8 +121,8 @@ python scripts/synthesize.py \
 ## 📊 Evaluation
 
 Scripts for prosody analysis and subjective testing:
-- `evaluation/phoneme_level.py`: per-phoneme F0 / Energy analysis
-- `evaluation/evaluate_emotion.py`: utterance-level acoustic curves
+- `evaluation/analyze_phoneme_level.py`: per-phoneme F0 analysis
+- `evaluation/analyze_sentence_level.py`: utterance-level acoustic curves
 - `evaluation/example_bws_results.xlsx`: annotated BWS score sheet
 
 ---
@@ -147,9 +151,3 @@ This project is licensed under the MIT License.
 
 ---
 
-## 📬 Contact
-
-For questions or suggestions:  
-**Qiyan**  
-📧 Email: [your-email@example.com]  
-🌐 GitHub: [https://github.com/your-username](https://github.com/your-username)
