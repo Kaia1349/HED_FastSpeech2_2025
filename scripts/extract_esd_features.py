@@ -1,3 +1,7 @@
+"""
+This script extracts utterance-, word-, and phone-level acoustic features using the eGeMAPSv02 configuration of the OpenSMILE toolkit.
+It is modified from https://github.com/shinshoji01/Summary-Hierarchical-ED
+"""
 import warnings
 warnings.filterwarnings("ignore")
 
