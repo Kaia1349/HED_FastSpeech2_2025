@@ -128,7 +128,8 @@ Scripts for prosody analysis and subjective testing:
 
 ## 📥 Pretrained Resources
 
-- ✅ 15k-step baseline checkpoint: https://drive.google.com/file/d/1M4dd7YI_dZr9IC1JSrl97cmOT7trkF2z/view?usp=sharing 
+- ✅ 15k-step baseline checkpoint: https://drive.google.com/file/d/1M4dd7YI_dZr9IC1JSrl97cmOT7trkF2z/view?usp=sharing
+- ✅ Checkpoints used for analysis：https://drive.google.com/drive/folders/1wqZe1ofbq9CbfR3EpCl0vfc5-G6QmX1y?usp=sharing
 - ✅ Example normalized HED vectors: `data/hed_vectors/*.npy`  
 - ✅ Trained SVM and scaler models: `parameters/*.pkl`  
 
