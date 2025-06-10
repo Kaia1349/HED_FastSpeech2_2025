@@ -48,7 +48,7 @@ hed-fastspeech2/
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/kaia1349/HED_FastSpeech2_2025.git
+[git clone https://github.com/kaia1349/HED_FastSpeech2_2025.git](https://github.com/Kaia1349/HED_FastSpeech2_2025.git)
 cd HED_FastSpeech2_2025
 pip install -r requirements.txt
 ```
