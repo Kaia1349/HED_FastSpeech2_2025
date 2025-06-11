@@ -53,7 +53,7 @@ cd HED_FastSpeech2_2025
 pip install -r requirements.txt
 ```
 
-⚠️ *Note:This project requires OpenSMILE, Montreal Forced Aligner (MFA) (https://montreal-forced-aligner.readthedocs.io) and ESD Dataset (https://drive.google.com/file/d/1scuFwqh8s7KIYAfZW1Eu6088ZAK2SI-v/view)*
+⚠️ *Note:This project requires OpenSMILE, Montreal Forced Aligner (MFA) (https://montreal-forced-aligner.readthedocs.io)*
 
 ---
 
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 The project uses the English subset of the Emotional Speech Dataset (ESD).  
 Download the dataset separately and organize it under `data/raw/` for preprocessing.
 
-This repository does not contain or distribute any audio files due to licensing restrictions.
+https://drive.google.com/file/d/1scuFwqh8s7KIYAfZW1Eu6088ZAK2SI-v/view.
 
 ---
 
