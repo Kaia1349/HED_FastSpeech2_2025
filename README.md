@@ -122,7 +122,7 @@ python3 synthesize.py \
 Scripts for prosody analysis and subjective testing:
 - `evaluation/analyze_phoneme_level.py`: per-phoneme F0 analysis
 - `evaluation/analyze_sentence_level.py`: utterance-level acoustic curves
-- `evaluation/example_bws_results.xlsx`: annotated BWS score sheet
+- `evaluation/BWS_results_summary.pdf:  BWS survey results 
 
 ---
 
