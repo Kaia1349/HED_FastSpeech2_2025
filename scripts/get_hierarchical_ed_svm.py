@@ -1,6 +1,6 @@
 """
 This script performs intensity estimation using SVM models and normalizes Hierarchical Emotion Distributions (HED).
-It is modified from https://github.com/shinshoji01/Summary-Hierarchical-ED 
+This implementation is modified based on https://github.com/shinshoji01/Summary-Hierarchical-ED. 
 """
 import warnings
 warnings.filterwarnings("ignore")
