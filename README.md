@@ -62,8 +62,6 @@ pip install -r requirements.txt
 The project uses the English subset of the Emotional Speech Dataset (ESD).  
 Download the dataset separately and organize it under `data/raw/` for preprocessing.
 
-https://drive.google.com/file/d/1scuFwqh8s7KIYAfZW1Eu6088ZAK2SI-v/view.
-
 ---
 
 ## 🔍 HED Feature Extraction
