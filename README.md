@@ -53,7 +53,7 @@ cd HED_FastSpeech2_2025
 pip install -r requirements.txt
 ```
 
-⚠️ *Note: Note: This project requires OpenSMILE, Montreal Forced Aligner (MFA) (https://montreal-forced-aligner.readthedocs.io)
+⚠️ *Note:This project requires OpenSMILE, Montreal Forced Aligner (MFA) (https://montreal-forced-aligner.readthedocs.io)
 
 ---
 
